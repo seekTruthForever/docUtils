@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="buildJarFile" default="compile" basedir=".">
+    <!-- the directory containing source code-->
+    <property name="src.dir" value="src" />
+
+    <!-- Temporary build directories -->
+    <property name="build.dir" value="WebContent" />
+    <property name="build.classes" value="${build.dir}/classes" />
+    <property name="build.lib" value="${build.dir}/lib" />
+
+    <!-- Target to  create the build directories prior to the compile target-->
+    <target name="init">
+        <mkdir dir="${build.dir}" />
+        <mkdir dir="${build.classes}" />
+        <mkdir dir="${build.lib}" />
+    </target>
+
+    <target name="clean" description="Remove all generted files">
+        <delete dir="${build.dir}" />
+    </target>
+
+    <target name="compile" depends="init" description="Compiles all source code">
+        <javac srcdir="${src.dir}" destdir="${build.classes}" />
+    </target>
+
+    <target name="jar" depends="compile" description="Generates jar file in 'dist' diretory">
+        <!-- Exclude unit tests from the final JAR file-->
+        <jar jarfile="${build.lib}/com.whv.doc.utils_1.0.jar" basedir="${build.classes}" excludes="**/*Test.class" />
+    </target>
+
+    <target name="alll" depends="clean, jar" description="Cleans, complies, then builds the JAR files.">
+    </target>
+</project>

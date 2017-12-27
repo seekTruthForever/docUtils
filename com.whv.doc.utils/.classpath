@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jodconverter-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jodconverter-cli-2.2.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jodconverter-core-3.0-beta-4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/juh-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jurt-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ridl-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/unoil-3.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsp-api-2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="WebContent/classes"/>
+</classpath>
