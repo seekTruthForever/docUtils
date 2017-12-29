@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Class-Path: lib/commons-io-2.0.1.jar lib/jodconverter-2.2.2.jar lib/jodconverter-cli-2.2.2.jar lib/jodconverter-core-3.0-beta-4.jar lib/json-lib-2.4-jdk15.jar lib/jsp-api-2.1.jar lib/juh-3.2.1.jar lib/jurt-3.2.1.jar lib/pinyin4j-2.5.0.jar lib/ridl-3.2.1.jar lib/unoil-3.2.1.jar
-Main-Class: com.whv.doc.utils.convert.DocConverter
-Bundle-ClassPath: lib/commons-io-2.0.1.jar,lib/jodconverter-2.2.2.jar,lib/jodconverter-cli-2.2.2.jar,lib/jodconverter-core-3.0-beta-4.jar,lib/json-lib-2.4-jdk15.jar,lib/jsp-api-2.1.jar,lib/juh-3.2.1.jar,lib/jurt-3.2.1.jar,lib/pinyin4j-2.5.0.jar,lib/ridl-3.2.1.jar,lib/unoil-3.2.1.jar
