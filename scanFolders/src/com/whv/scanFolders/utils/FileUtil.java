@@ -12,7 +12,8 @@ import java.io.OutputStream;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
+
+import com.whv.scanFolders.files.FileBean;
 
 
 /**
