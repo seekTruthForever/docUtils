@@ -13,8 +13,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.whv.scanFolders.files.FileBean;
-
 
 /**
  * 文件操作工具类
